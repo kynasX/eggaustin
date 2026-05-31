@@ -38,7 +38,7 @@ fi
 
 clear
 echo "----------------------------------------------------------"
-echo "                       AUSTIN STORE                       "
+echo "               AUSTIN STORE OFFICIAL                      "
 echo "----------------------------------------------------------"
 echo "Location   : $(curl -s ipinfo.io/country 2>/dev/null || echo 'Unknown')"
 echo "OS         : $(grep -oP '(?<=^PRETTY_NAME=).+' /etc/os-release | tr -d '\"')"
